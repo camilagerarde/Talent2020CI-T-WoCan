@@ -4,6 +4,10 @@ div {
   justify-content: center;
 }
 
+p {
+  text-align: center;
+}
+
 .logo {
   display: flex;
   align-content: center;
@@ -15,4 +19,26 @@ div {
 .footer {
   background-color: $LIGHTBLUE;
   align-content: center;
+}
+
+.aboutName {
+  font-size: 18px;
+}
+
+.aboutText {
+  font-size: 12px;
+}
+
+.about {
+  height: 231px;
+}
+
+.information {
+  font-size: 16px;
+  height: 73px;
+}
+
+.footer {
+  height: 29px;
+  font-size: 14px;
 }
