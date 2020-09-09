@@ -7,13 +7,13 @@ function Home() {
       <figure className="logo">
         <img className="header_logo" src={logo} alt="Imagem do logo" />
       </figure>
-      <div>
+      <div className="information">
         <p>
           Uma iniciativa para informar e direcionar quem deseja entrar no ramo
           da Tecnologia, e não sabe por onde começar.
         </p>
       </div>
-      <div></div>
+      <div className="nav"></div>
     </header>
   );
 }
