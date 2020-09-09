@@ -1,0 +1,82 @@
+#menu{
+    width: 35px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+}
+
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: $PINK;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#bar1{
+    transform: translateY(-4px);
+}
+
+#bar3{
+    transform: translateY(4px);
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline white;
+}
+
+li{
+    list-style: none;
+    padding: 16px 0;
+}
+
+.nav{
+    padding: 0;
+    margin: 0 20px;
+    transition: 0.3s ease;
+    display: none;
+}
+
+#menu-bar{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+.change .bar{
+    background-color: white;
+}
+
+.change #bar1{
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar3{
+    transform: translateY(-6px) rotate(45deg);
+}
+
+.change #bar2{
+    opacity: 0;
+}
+
+.change{
+    display: block;
+    width: auto;
+    height: auto;
+    margin-left: 40%;
+}
+
+.changeMenuBar{
+    background: $DARKBLUE;
+    opacity: 0.9;    
+    width: 100%;
+    height: auto;
+}
