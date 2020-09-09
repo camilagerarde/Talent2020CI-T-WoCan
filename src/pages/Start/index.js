@@ -1,5 +1,5 @@
-import React from "react";
-import '../../pattern.css';
+import React from 'react';
+import '../../assets/scss/Main.scss';
 
 function Home() {
   return (
