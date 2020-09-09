@@ -1,12 +1,25 @@
 .btn {
-  background-color: $PINK;
+  background-color: $DARKBLUE;
   border: none;
-  width: 75%;
-  height: 30px;
+  border-radius: 5px;
   color: $WHITE;
+  font-size: 18px;
+  font-weight: bold;
+  height: 40px;
+  margin-bottom: 15px;
   text-align: center;
   text-transform: capitalize;
-  font-size: 18px;
-  margin-bottom: 5px;
-  border-radius: 5px;
+  width: 75%;
+
+  a {
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+
+  a:link,
+  a:link:active,
+  a:visited:active,
+  a:visited {
+    color: $WHITE;
+  }
 }
