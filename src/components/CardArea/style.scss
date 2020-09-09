@@ -1,27 +1,37 @@
 .card {
+  align-items: center;
   background-color: $DARKBLUE;
-  width: 70%;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 15px;
+  height: auto;
+  min-height: 180px;
   margin: 10px;
-  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+  width: 70%;
 
   h2 {
     color: $WHITE;
+    font-size: 20px;
+    margin-bottom: 10px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
-    margin-bottom: 5px;
   }
 
-  figure {
+  .illustration {
     display: flex;
     justify-content: center;
-  }
 
-  img {
-    max-width: 90%;
+    img {
+      max-width: 90%;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .card {
+    max-width: 35%;
+    min-height: auto;
   }
 }
