@@ -1,0 +1,18 @@
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.about,
+.information,
+.footer {
+  background-color: $LIGHTBLUE;
+  align-content: center;
+}

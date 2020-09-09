@@ -39,7 +39,7 @@ function Home() {
           </p>
         </div>
       </body>
-      <footer>
+      <footer className="footer">
         <p>
           Feito com{' '}
           <span role="img" aria-label="heart">
