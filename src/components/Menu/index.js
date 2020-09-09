@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "../../assets/scss/Main.scss";
+import { Link, Redirect } from 'react-router-dom';
 
 const Menu = props => {
 
@@ -7,7 +8,6 @@ const Menu = props => {
     
     const onClickMenu = () => {
         setStatus(!status)
-        console.log(status)
     }
     
     
@@ -21,16 +21,14 @@ const Menu = props => {
                         <div id="bar3" className="bar"></div>
                     </div>
                     <ul id="nav" className={ status ? "change" : "nav"}>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Start</a></li>
-                        <li><a href="#">Front End</a></li>
-                        <li><a href="#">Back End</a></li>
-                        <li><a href="#">DevOps</a></li>
+                        <Link to='/' className="forLinkReact"><li>Home</li></Link>
+                        <Link to='start' className="forLinkReact"><li>Trajetória</li></Link>
+                        <li>Guia de profissões</li>
+                        <li>Mentoria</li>
+                        <li>Iniciativas</li>                                                                   
                     </ul>                
                 
-            </div>
-            
-            
+            </div>          
             
         </>
     )
