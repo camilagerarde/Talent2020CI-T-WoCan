@@ -1,4 +1,4 @@
-div {
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,6 +6,10 @@ div {
 
 p {
   text-align: center;
+}
+
+.header_logo {
+  width: 70%;
 }
 
 .logo {
@@ -31,13 +35,12 @@ p {
 
 .about {
   padding: 1em;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 
 .information {
   font-size: 16px;
-  height: 73px;
   padding: 1em;
   margin-bottom: 2em;
 }
@@ -45,4 +48,23 @@ p {
 .footer {
   padding: 0.8em;
   font-size: 14px;
+}
+
+@media (min-width: 800px) {
+  .information {
+    background-color: $OFFWHITE;
+    font-size: 24px;
+  }
+
+  .box {
+    display: flex;
+  }
+
+  .container {
+    height: 100vh;
+  }
+
+  .header_logo {
+    height: 50%;
+  }
 }
