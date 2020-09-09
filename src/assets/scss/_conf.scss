@@ -1,0 +1,13 @@
+//color schema
+
+$OFFWHITE: #e0ece4;
+$PINK: #ff4b5c;
+$DARKBLUE: #056674;
+$LIGHTBLUE: #66bfbf;
+
+//usage example: @media #{$BREAKPOINT-DESK}
+
+$BREAKPOINT-DESK: 'only screen and (min-width: 1280px)';
+$BREAKPOINT-TABLET-LAND: 'only screen and (min-width: 975px)';
+$BREAKPOINT-TABLET: 'only screen and (min-width: 600px)';
+$BREAKPOINT-MOBILE-LAND: 'only screen and (min-width: 480px)';
