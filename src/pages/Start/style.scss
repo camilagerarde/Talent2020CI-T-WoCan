@@ -1,18 +1,44 @@
 .main,
-.title {
+.title,
+.cards {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 100%;
 }
 
-.title {
-  margin-bottom: 20px;
-  background-color: $LIGHTBLUE;
-  padding: 15px 0;
-  h1 {
-    color: $DARKBLUE;
-    text-transform: uppercase;
-    margin-bottom: 15px;
+.main {
+  .title {
+    background-color: $LIGHTBLUE;
+    padding: 15px 0;
+
+    h1 {
+      color: $DARKBLUE;
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 15px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+  .cards {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 800px) {
+  .main {
+    flex-direction: row;
+    height: 100vh;
+    justify-content: space-between;
+  }
+  .title {
+    height: 100%;
+    justify-content: center;
+    width: 50%;
+  }
+  .cards {
+    margin-top: 0;
+    width: 50%;
   }
 }
