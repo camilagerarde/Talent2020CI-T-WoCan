@@ -4,7 +4,6 @@ import '../../assets/scss/Main.scss';
 import CardLink from '../../components/CardLink/CardLink';
 import firebase from '../../utils/firebase'
 
-
 function FrontEnd () {
   const [ link, setLink ] = useState([]);
   useEffect (() =>{
@@ -15,13 +14,11 @@ function FrontEnd () {
     });
   },[])
   return (
-    <div>
       <main className='main-front'>
-        <h1>Front-end</h1>
+          <h1>Front-end</h1>
           {link.map(eachLink => <CardLink key={eachLink.title} src={eachLink.image} alt={eachLink.title} 
           title={eachLink.title} href={eachLink.link}/>)}
       </main>
-    </div>
   );
 }
 
