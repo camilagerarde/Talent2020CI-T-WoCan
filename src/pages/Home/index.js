@@ -18,13 +18,11 @@ function Home() {
             </p>
           </div>
         </header>
-        <main>
-          <div className='nav'>
-            <Button name='Iniciar trajetória' />
-            <Button name='Guia de profissões' />
-            <Button name='Mentoria' />
-            <Button name='Iniciativas' />
-          </div>
+        <main className='button'>
+          <Button name='Iniciar trajetória' />
+          <Button name='Guia de profissões' />
+          <Button name='Mentoria' />
+          <Button name='Iniciativas' />
         </main>
       </div>
       <section className='about'>
