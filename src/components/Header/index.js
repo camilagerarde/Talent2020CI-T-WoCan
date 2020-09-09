@@ -6,9 +6,9 @@ import Menu from '../Menu';
 const Header = props => {
     
     return (
-        <header>
+        <header className="forHeader">
             <Menu/>
-            <img src={logoname} alt="Logo WoCan"></img>
+            <img className="forLogo" src={logoname} alt="Logo WoCan"></img>
         </header>
     )
 }
