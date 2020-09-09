@@ -1,6 +1,8 @@
 import React from 'react';
 import Button from '../../components/button/Button.js';
 import logo from '../../image/logo.png';
+import '../../pattern.css';
+
 
 function Home() {
   return (
