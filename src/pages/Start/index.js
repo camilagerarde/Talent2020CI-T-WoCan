@@ -22,7 +22,7 @@ const Start = () => {
           url='https://canaldoensino.com.br/blog/curso-online-gratuito-de-algoritmo'
         />
         <FirstSteps
-          children='Back-end ou Front-end?'
+          children='back-end ou front-end?'
           title='Link externo sobre Back-end e Front-end'
           url='https://tableless.github.io/iniciantes/manual/obasico/o-que-front-back.html'
         />
