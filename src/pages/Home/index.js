@@ -5,26 +5,28 @@ import '../../assets/scss/Main.scss';
 
 function Home() {
   return (
-    <div>
-      <header className='header'>
-        <figure className='logo'>
-          <img className='header_logo' src={logo} alt='Imagem do logo' />
-        </figure>
-        <div className='information'>
-          <p>
-            Uma iniciativa para informar e direcionar quem deseja entrar no ramo
-            da Tecnologia, e não sabe por onde começar.
-          </p>
-        </div>
-      </header>
-      <main>
-        <div className='nav'>
-          <Button name='Iniciar trajetória' />
-          <Button name='Guia de profissões' />
-          <Button name='Mentoria' />
-          <Button name='Iniciativas' />
-        </div>
-      </main>
+    <div className='container'>
+      <div className='box'>
+        <header className='header'>
+          <figure className='logo'>
+            <img className='header_logo' src={logo} alt='Imagem do logo' />
+          </figure>
+          <div className='information'>
+            <p>
+              Uma iniciativa para informar e direcionar quem deseja entrar no
+              ramo da Tecnologia, e não sabe por onde começar.
+            </p>
+          </div>
+        </header>
+        <main>
+          <div className='nav'>
+            <Button name='Iniciar trajetória' />
+            <Button name='Guia de profissões' />
+            <Button name='Mentoria' />
+            <Button name='Iniciativas' />
+          </div>
+        </main>
+      </div>
       <section className='about'>
         <p className='aboutName'>Sobre</p>
         <p className='aboutText'>

@@ -7,12 +7,18 @@
 Button {
   background-color: $DARKBLUE;
   border: none;
-  width: 281px;
-  height: 113px;
+  width: 75%;
+  height: 103px;
   color: $WHITE;
   text-align: center;
   text-transform: capitalize;
   font-size: 24px;
   margin-bottom: 24px;
   border-radius: 5px;
+}
+
+@media (min-width: 800px) {
+  button {
+    width: 75%;
+  }
 }
