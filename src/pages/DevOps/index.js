@@ -1,12 +1,12 @@
 import React from "react";
 import '../../pattern.css';
 
-function Home() {
+function DevOps() {
   return (
     <div>
-      <h1>WomanCan START TRAJECTORY</h1>
+      <h1>WomanCan DEV OPS</h1>
     </div>
   );
 }
 
-export default Home;
+export default DevOps;

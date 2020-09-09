@@ -1,4 +1,5 @@
 import React from "react";
+import '../../pattern.css';
 
 function Back() {
   return (
