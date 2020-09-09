@@ -1,7 +1,7 @@
 import React from "react";
-import Front from "./front.svg";
-import Back from "./back.svg";
-import Devops from "./devops.svg";
+import Front from "../../assets/image/front.svg";
+import Back from "../../assets/image/back.svg";
+import Devops from "../../assets/image/devops.svg";
 
 const areas = {
   back: Back,
