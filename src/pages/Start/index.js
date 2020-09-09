@@ -1,35 +1,49 @@
-import React from "react";
-import CardArea from "../../components/CardArea";
-import FirstSteps from "../../components/ButtonFirstSteps";
-import "../../assets/scss/Main.scss";
+import React from 'react';
+import { useHistory } from 'react-router-dom';
+import CardArea from '../../components/CardArea';
+import FirstSteps from '../../components/ButtonFirstSteps';
+import '../../assets/scss/Main.scss';
 
 const Start = () => {
+  const history = useHistory();
+
   return (
-    <main className="main">
-      <section className="title">
+    <main className='main'>
+      <section className='title'>
         <h1>primeiros passos</h1>
         <FirstSteps
-          children="lógica de programação"
-          onClick={() => console.log("foi")}
+          children='lógica de programação'
+          title='Link externo sobre lógica de programação'
+          url='https://www.iped.com.br/cursos-gratis/programacao-e-desenvolvimento/curso-rapido/introducao-logica-programacao'
         />
-        <FirstSteps children="algoritmos" />
-        <FirstSteps children="Back-end ou Front-end?" />
+        <FirstSteps
+          children='algoritmos'
+          title='Link externo sobre algoritmos'
+          url='https://canaldoensino.com.br/blog/curso-online-gratuito-de-algoritmo'
+        />
+        <FirstSteps
+          children='back-end ou front-end?'
+          title='Link externo sobre Back-end e Front-end'
+          url='https://tableless.github.io/iniciantes/manual/obasico/o-que-front-back.html'
+        />
       </section>
-      <CardArea
-        area="front"
-        onClick={() => console.log("foi")}
-        title="front-end"
-      />{" "}
-      <CardArea
-        area="back"
-        onClick={() => console.log("foi")}
-        title="Back-end"
-      />{" "}
-      <CardArea
-        area="devops"
-        onClick={() => console.log("foi")}
-        title="DevOps"
-      />
+      <section class='cards'>
+        <CardArea
+          area='front'
+          onClick={() => history.push('/frontend')}
+          title='Front-end'
+        />{' '}
+        <CardArea
+          area='back'
+          onClick={() => history.push('/backend')}
+          title='Back-end'
+        />{' '}
+        <CardArea
+          area='devops'
+          onClick={() => history.push('/devops')}
+          title='DevOps'
+        />
+      </section>
     </main>
   );
 };
