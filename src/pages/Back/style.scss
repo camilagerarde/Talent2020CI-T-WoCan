@@ -1,10 +1,10 @@
 @import '../../assets/scss/conf';
 
-.main-front{
+.main-back{
     text-align: center;
 }
 
-@media (min-width: 800px){
+@media (max-width: 800px){
     .content-course{
         display: inline-flex;
     }
