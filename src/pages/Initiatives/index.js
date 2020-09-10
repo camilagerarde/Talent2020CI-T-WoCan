@@ -31,8 +31,6 @@ const Initiatives = () => {
         firebaseRequisition('initiatives', allInitiativesArray, setAllInitiatives);
     }, [allInitiativesArray]);
 
-      console.log(allInitiatives)
-
   return (
     <div>
       <Header/>
