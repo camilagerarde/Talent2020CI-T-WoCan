@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import './style.scss'
 import '../../assets/scss/Main.scss';
 import CardLink from '../../components/CardLink/CardLink';
-import firebase from '../../utils/firebase'
+import firebase from '../../utils/firebase';
 
 function FrontEnd () {
   const [ link, setLink ] = useState([]);
