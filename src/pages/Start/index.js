@@ -35,16 +35,19 @@ const Start = () => {
             area='front'
             onClick={() => history.push('/frontend')}
             title='Front-end'
+            alt='Front-end'
           />{' '}
           <CardArea
             area='back'
             onClick={() => history.push('/backend')}
             title='Back-end'
+            alt='Back-end'
           />{' '}
           <CardArea
             area='devops'
             onClick={() => history.push('/devops')}
             title='DevOps'
+            alt='DevOps'
           />
         </section>
       </main>
