@@ -28,7 +28,7 @@ const Home = () => {
             name='Guia de profissões'
             onClick={() => history.push('/guide')}
           />
-          <Button name='Mentoria' onClick={() => history.push('/monitoring')} />
+          <Button name='Mentoria' onClick={() => history.push('/mentoring')} />
           <Button
             name='Iniciativas'
             onClick={() => history.push('/initiatives')}

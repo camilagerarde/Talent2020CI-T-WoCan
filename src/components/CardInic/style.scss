@@ -36,3 +36,9 @@ a{
     color: white;
     font-weight: bolder;
 }
+
+@media (min-width: 800px) {
+    .basic-structure{
+        width: 35%;
+    }
+}
