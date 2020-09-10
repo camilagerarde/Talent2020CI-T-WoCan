@@ -29,7 +29,7 @@ const Initiatives = () => {
 
     useEffect(() => {
         firebaseRequisition('initiatives', allInitiativesArray, setAllInitiatives);
-    }, []);
+    }, [allInitiativesArray]);
 
       console.log(allInitiatives)
 
@@ -43,7 +43,7 @@ const Initiatives = () => {
       <section className="containerInitiatives">
         {
             allInitiatives.map(item =>
-                <CardInic title={item.title} type={item.type} when={item.when} image={item.image} resume={item.resume} link={item.link}
+                <CardInic title={item.title} type={item.type} when={item.when} image={item.image} resume={item.resume} link={item.link} titleAc={item.title}
             />)
         }
       </section>
