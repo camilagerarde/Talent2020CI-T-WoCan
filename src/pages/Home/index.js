@@ -61,7 +61,7 @@ const Home = () => {
             <span role='img' aria-label='strong'>
               💪
             </span>{' '}
-            por Amanda, Camila, Carol e Nick!
+            por Camila, Carol, Nick e Zaine!
           </p>
         </footer>
       </div>
