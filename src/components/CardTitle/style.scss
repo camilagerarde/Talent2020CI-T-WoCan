@@ -1,0 +1,39 @@
+.card-title {
+  align-items: center;
+  background-color: $DARKBLUE;
+  border-radius: 5px;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px;
+  cursor: pointer;
+  width: 95%;
+
+  .h1-title {
+    color: $WHITE;
+    font-size: 30px;
+    margin-right: 10px;
+    text-transform: capitalize;
+  }
+
+  .illustration-title {
+    display: flex;
+    justify-content: center;
+
+    .img-title {
+      max-height: 50px;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .card-title {
+    width: 50%;
+  }
+
+  .h1-title {
+    margin-right: 20px;
+  }
+}
