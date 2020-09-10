@@ -3,8 +3,9 @@ import '../../assets/scss/Main.scss';
 
 const ButtonFirstSteps = (props) => {
   return (
-    <button className='btn'>
+    <button className='btn-steps'>
       <a
+        className='link-steps'
         href={props.url}
         target='_blank'
         rel='noopener noreferrer'
