@@ -22,12 +22,12 @@ Nós resolvemos fazer um site tanto para mulheres iniciantes na programação qu
 Mulheres que desejam começar a estudar programação e não sabem o que estudar inicialmente e mulheres que já são da área e querem estar por dentro de novas iniciativas como projetos, lives, eventos, entre outros.
 
 ## 4.Interface
-![](https://drive.google.com/uc?export=view&id=1xsP1QY1pjC16Zzj2qAZDAfOwaxSyjV2Z)
-![](https://drive.google.com/uc?export=view&id=1L6ZALFR8FDBoh9yB43I1_Ablt8mNpRAt)
-![](https://drive.google.com/uc?export=view&id=1RPCpa7va8nC9s7qQ_XDsm0OyACyy8XFp)
-![](https://drive.google.com/uc?export=view&id=1QCZ-KS8jHcC6qwCxUj7dSY_51GJdV_LE)
-![](https://drive.google.com/uc?export=view&id=1WYQ1pxQxyJU2pBax7RFNXFFh93zzIk1b)
-![](https://drive.google.com/uc?export=view&id=1m64DElLkzcOSDPpJ3j-9fT8f3iJwtjpU)
+![](./Imagens-Readme/home.png)
+![](./Imagens-Readme/trajetoria.png)
+![](./Imagens-Readme/front.png)
+![](./Imagens-Readme/back.png)
+![](./Imagens-Readme/devops.png)
+![](./Imagens-Readme/iniciativas.png)
 
 WoCan, Mudando a sua vida e o mundo.
 Para Mulheres jovens e adultas que desejam ingressar no ramo de TI.
