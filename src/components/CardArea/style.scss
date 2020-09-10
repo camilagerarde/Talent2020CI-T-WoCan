@@ -26,6 +26,7 @@
 
     .img-area {
       max-width: 90%;
+      height: 200px;
     }
   }
 }
@@ -33,6 +34,5 @@
 @media (min-width: 800px) {
   .card-area {
     width: 20%;
-    height: 200px;
   }
 }
