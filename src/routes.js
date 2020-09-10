@@ -7,7 +7,7 @@ import DevOps from './pages/DevOps';
 import Initiatives from './pages/Initiatives';
 import NotFound from './pages/NotFound';
 import Guide from './pages/Guide';
-import Monitoring from './pages/Monitoring';
+import Mentoring from './pages/Mentoring';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 const Routes = () => (
@@ -20,7 +20,7 @@ const Routes = () => (
       <Route path='/devops' component={DevOps} exact />
       <Route path='/initiatives' component={Initiatives} exact />
       <Route path='/guide' component={Guide} exact />
-      <Route path='/monitoring' component={Monitoring} exact />
+      <Route path='/mentoring' component={Mentoring} exact />
       <Route path='*' component={NotFound} />
     </Switch>
   </BrowserRouter>

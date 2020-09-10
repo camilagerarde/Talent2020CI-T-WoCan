@@ -1,0 +1,27 @@
+.content-pg-mentoring{
+    text-align: center;
+}
+
+.img-mentoring{
+    width: 90%;
+}
+
+.forTextMent{
+    margin: 10%;
+    text-align: justify;
+}
+
+.forSpan{
+    font-weight: bolder;
+}
+
+@media (min-width: 800px) {
+    .img-mentoring{
+        width: 35%;
+    }
+
+    .forTextMent{
+        width: 45%;
+        margin: 2% auto 0 auto;
+    }
+}
