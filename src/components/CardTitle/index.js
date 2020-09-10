@@ -12,7 +12,7 @@ const imgs = {
 
 const CardTitle = (props) => {
   return (
-    <div className='card-title' onClick={props.onClick}>
+    <div className='card-title'>
       <figure className='illustration-title'>
         <img className='img-title' src={imgs[props.img]} alt={props.alt}></img>
       </figure>
