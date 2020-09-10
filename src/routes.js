@@ -4,6 +4,7 @@ import Start from './pages/Start';
 import FrontEnd from './pages/FrontEnd';
 import BackEnd from './pages/Back';
 import DevOps from './pages/DevOps';
+import Initiatives from './pages/Initiatives';
 import NotFound from './pages/NotFound';
 import Guide from './pages/Guide';
 import Initiative from './pages/Initiative';
@@ -18,6 +19,7 @@ const Routes = () => (
       <Route path='/frontend' component={FrontEnd} exact />
       <Route path='/backend' component={BackEnd} exact />
       <Route path='/devops' component={DevOps} exact />
+      <Route path='/initiatives' component={Initiatives} exact />
       <Route path='*' component={NotFound} />
       <Route path='/guide' component={Guide} exact />
       <Route path='/initiative' component={Initiative} exact />
