@@ -14,7 +14,7 @@ const CardInic = (props) => {
                 <img src={props.image} alt="Imagem Ilustrativa" class="cover-card"></img>
             </div>            
 
-            <p id="resume">{props.resume} | <a href={props.link} target="_blank">Clique aqui</a> </p>
+            <p id="resume">{props.resume} | <a href={props.link} target="_blank" rel="noopener noreferrer" title={props.titleAc}>Clique aqui</a> </p>
             
         </article>
     )
