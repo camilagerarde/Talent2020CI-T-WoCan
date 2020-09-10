@@ -7,7 +7,6 @@ import DevOps from './pages/DevOps';
 import Initiatives from './pages/Initiatives';
 import NotFound from './pages/NotFound';
 import Guide from './pages/Guide';
-import Initiative from './pages/Initiative';
 import Monitoring from './pages/Monitoring';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -20,10 +19,9 @@ const Routes = () => (
       <Route path='/backend' component={BackEnd} exact />
       <Route path='/devops' component={DevOps} exact />
       <Route path='/initiatives' component={Initiatives} exact />
-      <Route path='*' component={NotFound} />
       <Route path='/guide' component={Guide} exact />
-      <Route path='/initiative' component={Initiative} exact />
       <Route path='/monitoring' component={Monitoring} exact />
+      <Route path='*' component={NotFound} />
     </Switch>
   </BrowserRouter>
 );
