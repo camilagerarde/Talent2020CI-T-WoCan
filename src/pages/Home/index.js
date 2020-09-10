@@ -31,7 +31,7 @@ const Home = () => {
           <Button name='Mentoria' onClick={() => history.push('/monitoring')} />
           <Button
             name='Iniciativas'
-            onClick={() => history.push('/initiative')}
+            onClick={() => history.push('/initiatives')}
           />
         </main>
       </div>
