@@ -13,3 +13,9 @@
   text-align: center;
   width: 80%;
 }
+
+@media (min-width: 800px) {
+  .information-guide {
+    width: 70%;
+  }
+}
