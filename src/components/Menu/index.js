@@ -21,7 +21,7 @@ const Menu = (props) => {
                 <Link to='/' className="forLinkReact"><li>Home</li></Link>
                 <Link to='start' className="forLinkReact"><li>Trajetória</li></Link>
                 <Link to='guide' className="forLinkReact"><li>Guia de profissões</li></Link>
-                <Link to='monitoring' className="forLinkReact"><li>Mentoria</li></Link>
+                <Link to='mentoring' className="forLinkReact"><li>Mentoria</li></Link>
                 <Link to='initiatives' className="forLinkReact"><li>Iniciativas</li></Link>  
               </ul>  
                             
