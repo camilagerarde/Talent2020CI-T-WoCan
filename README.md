@@ -22,7 +22,7 @@ Nós resolvemos fazer um site tanto para mulheres iniciantes na programação qu
 Mulheres que desejam começar a estudar programação e não sabem o que estudar inicialmente e mulheres que já são da área e querem estar por dentro de novas iniciativas como projetos, lives, eventos, entre outros.
 
 ## 4.Interface
-![](./Imagens-Readme/home.png)
+![](Imagens-Readme/home.png)
 ![](./Imagens-Readme/trajetoria.png)
 ![](./Imagens-Readme/front.png)
 ![](./Imagens-Readme/back.png)
