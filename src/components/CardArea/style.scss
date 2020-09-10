@@ -1,4 +1,4 @@
-.card {
+.card-area {
   align-items: center;
   background-color: $DARKBLUE;
   border-radius: 5px;
@@ -12,7 +12,7 @@
   cursor: pointer;
   width: 70%;
 
-  h2 {
+  .title-area {
     color: $WHITE;
     font-size: 20px;
     margin-bottom: 10px;
@@ -20,11 +20,11 @@
     text-transform: uppercase;
   }
 
-  .illustration {
+  .illustration-area {
     display: flex;
     justify-content: center;
 
-    img {
+    .img-area {
       max-width: 90%;
     }
   }
