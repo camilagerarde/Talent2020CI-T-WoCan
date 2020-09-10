@@ -23,3 +23,10 @@
     color: $WHITE;
   }
 }
+
+@media (min-width: 800px) {
+  .btn {
+    margin-bottom: 5px;
+    width: 40%;
+  }
+}
