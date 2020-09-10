@@ -12,10 +12,10 @@ const areas = {
 
 const CardArea = (props) => {
   return (
-    <div className='card' onClick={props.onClick}>
-      <h2>{props.title}</h2>
-      <figure className='illustration'>
-        <img src={areas[props.area]} alt={props.alt}></img>
+    <div className='card-area' onClick={props.onClick}>
+      <h2 className='title-area'>{props.title}</h2>
+      <figure className='illustration-area'>
+        <img className='img-area' src={areas[props.area]} alt={props.alt}></img>
       </figure>
     </div>
   );

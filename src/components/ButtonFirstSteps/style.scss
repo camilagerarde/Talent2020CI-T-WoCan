@@ -1,4 +1,4 @@
-.btn {
+.btn-steps {
   background-color: $DARKBLUE;
   border: none;
   border-radius: 5px;
@@ -11,21 +11,21 @@
   text-transform: capitalize;
   width: 75%;
 
-  a {
+  .link-steps {
     text-decoration: none;
     padding: 10px 20px;
   }
 
-  a:link,
-  a:link:active,
-  a:visited:active,
-  a:visited {
+  .link-steps:link,
+  .link-steps:link:active,
+  .link-steps:visited:active,
+  .link-steps:visited {
     color: $WHITE;
   }
 }
 
 @media (min-width: 800px) {
-  .btn {
+  .btn-steps {
     margin-bottom: 5px;
     width: 40%;
   }

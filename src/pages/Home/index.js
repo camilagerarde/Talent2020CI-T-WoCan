@@ -31,7 +31,7 @@ const Home = () => {
           <Button name='Mentoria' onClick={() => history.push('/monitoring')} />
           <Button
             name='Iniciativas'
-            onClick={() => history.push('/initiative')}
+            onClick={() => history.push('/initiatives')}
           />
         </main>
       </div>
@@ -61,7 +61,7 @@ const Home = () => {
             <span role='img' aria-label='strong'>
               💪
             </span>{' '}
-            por Amanda, Camila, Carol e Nick!
+            por Camila, Carol, Nick e Zaine!
           </p>
         </footer>
       </div>
