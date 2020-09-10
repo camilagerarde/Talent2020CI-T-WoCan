@@ -1,9 +1,12 @@
 import React from 'react';
 import Button from '../../components/Button/Button.js';
 import logo from '../../assets/image/logo.png';
+import { useHistory } from 'react-router-dom';
 import '../../assets/scss/Main.scss';
 
-function Home() {
+const Home = () => {
+  const history = useHistory();
+
   return (
     <div className='container'>
       <div className='box'>
@@ -17,10 +20,19 @@ function Home() {
           </p>
         </header>
         <main className='button'>
-          <Button name='Iniciar trajetória' />
-          <Button name='Guia de profissões' />
-          <Button name='Mentoria' />
-          <Button name='Iniciativas' />
+          <Button
+            name='Iniciar trajetória'
+            onClick={() => history.push('/start')}
+          />
+          <Button
+            name='Guia de profissões'
+            onClick={() => history.push('/guide')}
+          />
+          <Button name='Mentoria' onClick={() => history.push('/monitoring')} />
+          <Button
+            name='Iniciativas'
+            onClick={() => history.push('/initiative')}
+          />
         </main>
       </div>
       <div className='box2'>
@@ -55,6 +67,6 @@ function Home() {
       </div>
     </div>
   );
-}
+};
 
 export default Home;
