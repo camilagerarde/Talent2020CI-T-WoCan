@@ -1,23 +1,36 @@
 import React from 'react';
 import '../../assets/scss/Main.scss';
 import Header from '../../components/Header';
+import CardTitle from '../../components/CardTitle';
 import MentImage from '../../assets/image/mentoring.svg';
 
 const Mentoring = () => {
-
   return (
     <>
       <Header />
-      <section className="content-pg-mentoring">
-       
-        <figure>
-          <img className="img-mentoring" src={MentImage} alt="Imagem ilustrativa para seção de Mentoria"></img>
-          <figcaption>Ilustração de pair programming</figcaption>
-        </figure>
-        <p className="forTextMent">Essa página está em processo de desenvolvimento, <span className="forSpan">aguarde</span> para ter mais essa oportunidade de <span className="forSpan">crescer na carreira de tecnologia!</span></p>
-      </section>
+      <main className='main'>
+        <CardTitle title='Mentorias' img='front' alt='Página de mentoria' />
+        <div>
+          <h2>Logo teremos novidades!!</h2>
+          <figure className='construction'>
+            <img
+              className='img-mentoring'
+              src={MentImage}
+              alt='Imagem ilustrativa para seção de Mentoria'
+            />
+          </figure>
+        </div>
+        <section className='information-guide'>
+          <h3>
+            Essa página está em processo de desenvolvimento,{' '}
+            <span className='forSpan'>aguarde</span> para ter mais essa
+            oportunidade de{' '}
+            <span className='forSpan'>crescer na carreira de tecnologia!</span>
+          </h3>
+        </section>
+      </main>
     </>
-  )
-}
+  );
+};
 
 export default Mentoring;

@@ -10,12 +10,12 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  text-align: center;
+  text-align: justify;
   width: 80%;
 }
 
 @media (min-width: 800px) {
   .information-guide {
-    width: 70%;
+    width: 50%;
   }
 }
