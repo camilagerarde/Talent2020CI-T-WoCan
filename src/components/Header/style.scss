@@ -3,16 +3,21 @@
   right: 0;
   position: absolute;
   width: 40%;
-  margin: 3%;
 }
 
 .forHeader {
   height: 80px;
 }
 
+@media (max-width: 500px) {
+  .forLogo {
+    margin: 3%;
+  }
+}
+
 @media (min-width: 800px) {
   .forLogo {
-    width: 14%;
-    margin: 1%;
+    width: 20%;
+    margin: 2%;
   }
 }

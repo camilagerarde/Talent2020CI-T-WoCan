@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../../components/Header';
+import CardTitle from '../../components/CardTitle';
 import Construction from '../../assets/image/construction.svg';
 import '../../assets/scss/Main.scss';
 
@@ -8,6 +9,11 @@ const Guide = () => {
     <>
       <Header />
       <main className='main'>
+        <CardTitle
+          title='Guia de profissões'
+          img='back'
+          alt='Página guia de profissões'
+        />
         <div>
           <h2>Logo teremos novidades!!</h2>
           <figure className='construction'>

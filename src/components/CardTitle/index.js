@@ -2,12 +2,14 @@ import React from 'react';
 import Front from '../../assets/image/front.svg';
 import Back from '../../assets/image/back.svg';
 import Devops from '../../assets/image/devops.svg';
+import Guide from '../../assets/image/guide.svg';
 import '../../assets/scss/Main.scss';
 
 const imgs = {
   back: Back,
   front: Front,
   devops: Devops,
+  guide: Guide,
 };
 
 const CardTitle = (props) => {

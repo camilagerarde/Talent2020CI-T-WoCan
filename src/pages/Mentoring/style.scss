@@ -1,27 +1,32 @@
-.content-pg-mentoring{
-    text-align: center;
+.main {
+  color: $DARKBLUE;
 }
 
-.img-mentoring{
-    width: 90%;
+.img-mentoring {
+  width: 90%;
 }
 
-.forTextMent{
-    margin: 10%;
-    text-align: justify;
+.construction {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
 }
 
-.forSpan{
-    font-weight: bolder;
+.information-guide {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: justify;
+  width: 80%;
+  margin-bottom: 10%;
 }
 
 @media (min-width: 800px) {
-    .img-mentoring{
-        width: 35%;
-    }
+  .img-mentoring {
+    width: 50%;
+  }
 
-    .forTextMent{
-        width: 45%;
-        margin: 2% auto 0 auto;
-    }
+  .information-guide {
+    width: 50%;
+  }
 }
