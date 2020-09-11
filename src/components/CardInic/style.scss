@@ -13,29 +13,36 @@
     border-color: $PINK;
     border-radius: 5px;
     margin: 0px auto 10% auto;
-}
+    cursor: pointer;
 
-.forTitle{
-    font-size: x-large;
-    font-weight: bold;
-}
+    .forTitle{
+        font-size: x-large;
+        font-weight: bold;
+    }
 
-.forAlign{
+    
+    .forAlign{
     text-align: center;
     margin-top: 9%;
     margin-bottom: 5%;
+    }
+
+    .cover-card{
+        width: 50%;
+        height: 50%;
+    }
+
+    .resumeCardInic{
+        text-align: justify;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
 }
 
-.cover-card{
-    width: 50%;
-    height: 50%;
-}
 
-a{
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
-}
+
+
+
 
 @media (min-width: 800px) {
     .basic-structure{

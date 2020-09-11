@@ -37,19 +37,12 @@ const Home = () => {
       </div>
       <div className='box2'>
         <section className='about'>
-          <p className='aboutName'>Sobre</p>
-          <p className='aboutText'>
-            <br />
-            Quer estudar né meu bem, mas não sabe por onde começar? Então se
-            joga na nossa aplicação! Em “Iniciar trajetória” voce pode escolher
-            por qual roteiro de estudo quer começar! Está confuso ainda em qual
-            área você se encaixa, da uma olhada nesse “Guia de Profissoes” que a
-            iniciativa Ada.vc preparou! Em “Mentoria” temos um fórum de dúvidas
-            com pessoas ja inseridas no mercado pra ajudar vocês a prosseguir
-            com os estudos. Por fim, temos as “Iniciativas” com informações
-            sobre diversos programas e o que está rolando de eventos. Agora só
-            pegar o café e bons estudos!
+          <p className='aboutName'><span className="for-span-home">Sobre</span></p>
+          <p className='aboutText recuo'>
+            Quer estudar né meu bem, mas <span className="for-span-home">não sabe por onde começar?</span> Então se
+            joga na nossa aplicação! Em “Iniciar trajetória” você pode escolher por qual roteiro de estudo quer começar e tem acesso aos <span className="for-span-home">Primeiros Passos essenciais</span> para qualquer área. Temos também as “Iniciativas” com informações sobre diversas oportunidades atuais e relevantes e o que está rolando de eventos.
           </p>
+          <p><span className="for-span-home aboutText">Agora só pegar o café e bons estudos!</span></p>
         </section>
         <footer className='footer'>
           <p>
