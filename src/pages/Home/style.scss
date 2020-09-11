@@ -25,12 +25,15 @@ p {
   align-content: center;
 }
 
+
 .aboutName {
-  font-size: 18px;
+  font-size: 25px;
+  margin-bottom: 5%;
 }
 
 .aboutText {
-  font-size: 12px;
+  font-size: 20px;
+  text-align: justify;
 }
 
 .about {
@@ -40,7 +43,7 @@ p {
 }
 
 .information {
-  font-size: 16px;
+  font-size: 20px;
   padding: 1em;
   margin-bottom: 2em;
 }
@@ -55,6 +58,15 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.recuo {
+   text-indent:2em 
+}
+
+.for-span-home{
+  font-weight: bolder;
+  color: $WHITE;
 }
 
 @media (min-width: 800px) {
