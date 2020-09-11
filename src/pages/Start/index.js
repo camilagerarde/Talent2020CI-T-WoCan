@@ -30,7 +30,7 @@ const Start = () => {
             url='https://tableless.github.io/iniciantes/manual/obasico/o-que-front-back.html'
           />
         </section>
-        <section class='cards'>
+        <section className='cards'>
           <CardArea
             area='front'
             onClick={() => history.push('/frontend')}
