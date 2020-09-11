@@ -14,7 +14,7 @@ const Guide = () => {
             <img
               className='construction-img'
               src={Construction}
-              alt='página em construção'
+              alt='Página em construção'
             />
           </figure>
         </div>

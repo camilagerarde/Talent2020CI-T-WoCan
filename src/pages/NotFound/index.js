@@ -1,22 +1,22 @@
 import React from 'react';
-import './style.scss'
-import { Link } from 'react-router-dom';
 import '../../assets/scss/Main.scss';
-import img404 from '../../assets/image/img404.svg'
+import Header from '../../components/Header';
+import img404 from '../../assets/image/img404.svg';
 
-function NotFound() {
+const NotFound = () => {
   return (
-    <main>
-      <Link className='btn-back' title="Voltar para Home" to="/">
-          VOLTAR
-        </Link>
-      <section className='content-pg-error'>
-        <h1>Ops!</h1>
-        <h2>Página não encontrada </h2>
-        <img className='img-404' src={img404} alt='imagem 404'></img>
-      </section>
-    </main>
+    <>
+      <Header />
+      <main className='ops'>
+        <div>
+          <h2>Ops! Parece que essa página não existe!</h2>
+          <figure className='construction'>
+            <img className='img-404' src={img404} alt='Pagina não encontrada' />
+          </figure>
+        </div>
+      </main>
+    </>
   );
-}
+};
 
 export default NotFound;

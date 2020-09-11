@@ -1,10 +1,24 @@
-.content-pg-error{
-    text-align: center;
+h2 {
+  text-align: center;
 }
-.btn-back{
-    background-color: #056674;
-    border-radius: 5px;
+
+.ops {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10%;
+  color: $DARKBLUE;
 }
-.img-404{
-    width: 40%;
+
+.construction {
+  margin: 5%;
+}
+
+.information-guide {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 80%;
 }
