@@ -40,9 +40,9 @@ const Home = () => {
           <p className='aboutName'><span className="for-span-home">Sobre</span></p>
           <p className='aboutText recuo'>
             Quer estudar né meu bem, mas <span className="for-span-home">não sabe por onde começar?</span> Então se
-            joga na nossa aplicação! <br/> Em “Iniciar trajetória” você pode escolher por qual roteiro de estudo quer começar e tem acesso aos <span className="for-span-home">Primeiros Passos essenciais</span> para qualquer área. <br/> Temos também as “Iniciativas” com informações sobre diversas oportunidades atuais e relevantes e o que está rolando de eventos. <br/> <span className="for-span-home">Agora só
-            pegar o café e bons estudos!</span>
+            joga na nossa aplicação! Em “Iniciar trajetória” você pode escolher por qual roteiro de estudo quer começar e tem acesso aos <span className="for-span-home">Primeiros Passos essenciais</span> para qualquer área. Temos também as “Iniciativas” com informações sobre diversas oportunidades atuais e relevantes e o que está rolando de eventos.
           </p>
+          <p><span className="for-span-home aboutText">Agora só pegar o café e bons estudos!</span></p>
         </section>
         <footer className='footer'>
           <p>
