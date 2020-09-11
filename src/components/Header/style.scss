@@ -9,6 +9,12 @@
   height: 80px;
 }
 
+@media (max-width: 500px) {
+  .forLogo {
+    margin: 3%;
+  }
+}
+
 @media (min-width: 800px) {
   .forLogo {
     width: 20%;
