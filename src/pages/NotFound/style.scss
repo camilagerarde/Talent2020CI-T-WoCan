@@ -14,3 +14,13 @@ h2 {
 .construction {
   margin: 5%;
 }
+
+.img-404{
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  .img-404{
+    width: 60%;
+  }
+}
