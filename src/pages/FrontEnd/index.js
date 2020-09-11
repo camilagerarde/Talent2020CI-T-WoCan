@@ -22,19 +22,21 @@ function FrontEnd() {
       });
   }, []);
   return (
-    <main className='main-front'>
+    <>
       <Header />
-      <CardTitle title='Front-end' img='front' alt='Página Front-end' />
-      {link.map((eachLink) => (
-        <CardLink
-          key={eachLink.title}
-          src={eachLink.image}
-          alt={eachLink.title}
-          title={eachLink.title}
-          href={eachLink.link}
-        />
-      ))}
-    </main>
+      <main className='main-front'>
+        <CardTitle title='Front-end' img='front' alt='Página Front-end' />
+        {link.map((eachLink) => (
+          <CardLink
+            key={eachLink.title}
+            src={eachLink.image}
+            alt={eachLink.title}
+            title={eachLink.title}
+            href={eachLink.link}
+          />
+        ))}
+      </main>
+    </>
   );
 }
 

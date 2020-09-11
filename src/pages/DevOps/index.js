@@ -23,17 +23,19 @@ function DevOps() {
   }, []);
 
   return (
-    <main className='main-front'>
+    <>
       <Header />
-      <CardTitle title='DevOps' img='devops' alt='Página DevOps' />
-      {link.map((eachLink) => (
-        <CardDev
-          key={eachLink.title}
-          title={eachLink.title}
-          href={eachLink.link}
-        />
-      ))}
-    </main>
+      <main className='main-front'>
+        <CardTitle title='DevOps' img='devops' alt='Página DevOps' />
+        {link.map((eachLink) => (
+          <CardDev
+            key={eachLink.title}
+            title={eachLink.title}
+            href={eachLink.link}
+          />
+        ))}
+      </main>
+    </>
   );
 }
 

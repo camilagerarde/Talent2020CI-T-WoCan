@@ -22,19 +22,21 @@ function BackEnd() {
       });
   }, []);
   return (
-    <main className='main-back'>
+    <>
       <Header />
-      <CardTitle title='Back-end' img='back' alt='Página Back-end' />
-      {link.map((eachLink) => (
-        <CardLink
-          key={eachLink.title}
-          src={eachLink.image}
-          alt={eachLink.title}
-          title={eachLink.title}
-          href={eachLink.link}
-        />
-      ))}
-    </main>
+      <main className='main-back'>
+        <CardTitle title='Back-end' img='back' alt='Página Back-end' />
+        {link.map((eachLink) => (
+          <CardLink
+            key={eachLink.title}
+            src={eachLink.image}
+            alt={eachLink.title}
+            title={eachLink.title}
+            href={eachLink.link}
+          />
+        ))}
+      </main>
+    </>
   );
 }
 
