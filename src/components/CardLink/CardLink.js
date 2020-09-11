@@ -1,14 +1,18 @@
 import React from 'react';
-import './style.scss';
+import "../../assets/scss/Main.scss";
 
 
 const CardLink = (props) => {
+
+    const redirectCardLink = (link) => {
+        window.open(link, '_blank')
+    }
+
     return (
-        <section className='content-course'>
+        <section className='content-course' onClick={() => redirectCardLink(props.href)}>
             <img src={props.src} className='images' alt={props.alt}></img>
-            <div>
-                <p className={props.classTitle}>{props.title}</p>
-                <p className='txt-link'><a href={props.href} className='go-course'>Ir para o curso</a></p>
+            <div className="for-title-cardlink">
+                <p className="for-title-cardlink">{props.title}</p>
             </div>
         </section>
     );
