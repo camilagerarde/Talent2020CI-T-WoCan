@@ -1,4 +1,4 @@
-# Talent Fest 2020 - CI&T
+# Talent Fest - CI&T
 
 ![](./src/assets/image/logo2.png)
 
