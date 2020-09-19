@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../assets/scss/Main.scss';
 import Header from '../../components/Header';
 import CardTitle from '../../components/CardTitle';
 import MentImage from '../../assets/image/mentoring.svg';
+import '../../assets/scss/Main.scss';
 
 const Mentoring = () => {
   return (

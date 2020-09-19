@@ -21,6 +21,7 @@ function FrontEnd() {
         setLink(links);
       });
   }, []);
+
   return (
     <>
       <Header />
