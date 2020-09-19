@@ -4,7 +4,7 @@
 
 ## Índice
 
-[Introdução](#introdução) | [Desafio CI&T](#Desafio-CI&T) | [Solução](#Solução) | [Estrutura e funcionalidades](#estrutura-e-funcionalidades) | [Instalação e execução](#instalação-e-execução-octocat) | [Tecnologias e bibliotecas utilizadas](#tecnologias-e-bibliotecas-utilizadas-star) | [Implementações futuras](#implementações-futuras)
+[Introdução](#introdução) | [Desafio CI&T](#desafio-cit) | [Solução](#solução) | [Estrutura e funcionalidades](#estrutura-e-funcionalidades) | [Instalação e execução](#instalação-e-execução-octocat) | [Tecnologias e bibliotecas utilizadas](#tecnologias-e-bibliotecas-utilizadas-star) | [Implementações futuras](#implementações-futuras)
 
 ---
 
@@ -38,12 +38,12 @@ Na página de **Iniciativas** a usuária se mantêm atualizada sobre cursos, eve
 <img src="./src/assets/images-readme/future.png" width="500">
 <img src="./src/assets/images-readme/initiatives.png" width="500">
 
-## 7. Instalação e execução :octocat:
+## Instalação e execução :octocat:
 
 - Clone o projeto na sua máquina executando o seguinte comando no seu terminal:
 
 ```sh
-$ git clone <link-do-repositório>
+$ git clone https://github.com/camilagerarde/Talent2020CI-T-WoCan
 ```
 
 - Instale as dependências do projeto com o comando:
