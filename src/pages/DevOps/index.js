@@ -29,12 +29,12 @@ function DevOps() {
         <CardTitle title='DevOps' img='devops' alt='Página DevOps' />
         {link.map((eachLink) => (
           <CardLink
-          key={eachLink.title}
-          src={eachLink.image}
-          alt={eachLink.title}
-          title={eachLink.title}
-          href={eachLink.link}
-        />
+            key={eachLink.title}
+            src={eachLink.image}
+            alt={eachLink.title}
+            title={eachLink.title}
+            href={eachLink.link}
+          />
         ))}
       </main>
     </>
